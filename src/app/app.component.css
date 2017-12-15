@@ -1,0 +1,15 @@
+.dash-section {
+  background-color: coral; }
+
+h1, h2 {
+  text-align: left; }
+
+a h1, a h2 {
+  text-decoration: none;
+  color: white;
+  padding: 10px; }
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none; }
+
+/*# sourceMappingURL=app.component.css.map */
