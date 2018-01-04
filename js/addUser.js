@@ -1,25 +1,16 @@
-/*  OLD
-var gun = Gun().get('users');
-function addNewUser (name, age, gender){
-    //generate key for user
-}*/
-var gun = Gun();
+var gun = Gun('http://localhost:4747/gun');
 var user = gun.user();
-
+// get user name and pass values from frontend
+var name = $('#name_in').val();
+var pass = $('#pass_in').val();
 // Browser Native Web Crypto API is used to PBKDF2 the password.
-user.create('alice', 'unsafepassword', function(ack){
-    // done creating user!
-});
-
-// log in
-user.auth('alice', 'unsafepassword', function(ack){
-    // logged in!
-});
-
-var alice = {name: "Alice"};
-alice.boss = {name: "Fluffy", species: "Kitty", slave: alice};
-user.get('profile').put(alice);
-
+function CreateUser() {
+    var user = gun.user(name);
+    user.create(name, pass, function (ack) {
+        // done creating user!
+        alert('Willkommen ' + name);
+    });
+}
 // var users = gun.get('users');
 /*
 $('form').on('submit', function(e){
