@@ -1,20 +1,23 @@
-<html>
+<!doctype html>
+<html lang="de">
 <body>
 <meta CHARSET="UTF-8">
 
 <h1>new user</h1>
 <form>
     <!-- name -->
-    <input id="name_in" placeholder="name"><button>add</button>
+    <input id="name_in" placeholder="Name">
+    <input id="pass_in" placeholder="Passwort" type="password">
+    <button type="button" onclick="CreateUser();">add</button>
     <!-- age -->
-    <input id="age_in" type="number" name="age" value="" placeholder="alter">
+    <!--<input id="age_in" type="number" name="age" value="" placeholder="alter">-->
     <!-- gender -->
-    <br>
-    <p>Geschlecht</p>
-    <input type="radio" name="gender" value="Male">Junge
-    <input type="radio" name="gender" value="Female">Mädchen
+    <!--<p>Geschlecht</p>-->
+    <!--<input type="radio" name="gender" value="Male">Junge-->
+    <!--<input type="radio" name="gender" value="Female">Mädchen-->
     <!-- really? <input type="radio" name="gender" value="Other">-->
     <!-- interest -->
+    <!--
     <br>
     <p>Interessen</p>
     <input type="checkbox" name="knochen" value="Knochen">
@@ -22,8 +25,11 @@
     <br>
     <input type="checkbox" name="augen" value="Augen">
     Augen
+    -->
 </form>
+<!--
 <p>(Wird viel durch Icons ersetzt)</p>
+-->
 <!--
 <ul></ul>
 -->
@@ -31,7 +37,7 @@
 <script src="../js/jquery.js"></script>
 <script src="http://localhost:4747/gun.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gun/lib/cryptomodules.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gun/sea.js"></script>
+<script src="../js/sea.js"></script>
 <script src="../js/addUser.js"></script>
 </body>
 </html>

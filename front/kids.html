@@ -1,12 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="utf-8">
+  <meta CHARSET="UTF-8">
   <title>SrhEdutainmentKinderstation</title>
   <link rel="stylesheet" href="sass/app.css">
 </head>
 <body>
-  <div style="text-align:center">
+
+<p>Login</p>
+<form action="">
+    <input id="login_name" type="text">
+    <input id="login_pass" type="password"><button type="button" onclick="doLogin()">ENTER</button>
+</form>
+<!--
+<div class="view" style="text-align:center; display: none;">
   <h2>
     Hallo <div class="username-preview">{{ user }}</div>
     <br>
@@ -25,5 +32,12 @@
     </a>
   </div>
   </div>
+-->
+<script src="../js/jquery.js"></script>
+<script src="http://localhost:4747/gun.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gun/lib/cryptomodules.js"></script>
+<script src="../js/sea.js"></script>
+<script src="../js/login.js"></script>
+
 </body>
 </html>
