@@ -16,12 +16,23 @@ views
 
 	DATA MODEL
 		user
+		    key
+		    name
+		    gender
+		    interest
+
 		docs			
 			text stored completely in .json in db
 		vids
 			path stored in db
 
-
+        server
+            host gun
+            keep data
+            create user
+        client
+            serve
+                -> send data to server
 
 
 
