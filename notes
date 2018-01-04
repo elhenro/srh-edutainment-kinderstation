@@ -1,0 +1,29 @@
+
+views
+	kids
+		Home
+			text
+			video
+			audiobook
+	parents
+	mods
+
+4 gun.js
+	use keys !!
+		key value structure
+	user.auth
+
+
+	DATA MODEL
+		user
+		docs			
+			text stored completely in .json in db
+		vids
+			path stored in db
+
+
+
+
+
+todo later:
+	vue
