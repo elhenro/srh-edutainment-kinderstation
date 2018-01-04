@@ -1,0 +1,23 @@
+{
+  "name": "srh-edutainment-kinderstation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gun-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhenro/srh-edutainment-kinderstation.git"
+  },
+  "author": "Henry Schober",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhenro/srh-edutainment-kinderstation/issues"
+  },
+  "homepage": "https://github.com/elhenro/srh-edutainment-kinderstation#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "gun": "^0.9.6"
+  }
+}
