@@ -7,8 +7,8 @@ var pass = $('#pass_in').val();
 function CreateUser() {
     var user = gun.user(name);
     user.create(name, pass, function (ack) {
-        // done creating user!
         alert('Willkommen ' + name);
+        console.log("Created!", ack.pub);
     });
 }
 // var users = gun.get('users');
